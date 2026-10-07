@@ -1,9 +1,5 @@
-# Axis Esports Media - AI Writing & Humanizer Skill Set
-
 Bu repo, **Axis Esports Media** yayın standartları ile yapay zeka metin doğallaştırma kurallarını birleştiren modüler agent skill (yetenek) koleksiyonudur.
 Bu repo'nun temel amacı skilleri yapay zeka modellere tanımlatıp verilecek metinleri doğal ve paylaşıma uygun şekile getirilmesi adına yapılmıştır.
-
-# Axis Esports Media - AI Writing & Humanizer Skill Set
 
 Bu repo, **Axis Esports Media** yayın standartları ile yapay zeka metin doğallaştırma kurallarını birleştiren modüler agent skill (yetenek) koleksiyonudur. 
 
