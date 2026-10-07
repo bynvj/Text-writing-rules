@@ -11,7 +11,7 @@ BÖLÜM 1: TEMEL DİL BİLGİSİ VE STANDARTLAŞTIRMA
 1.1. TDK Uyumu ve Noktalama
 
 ** Noktalama ve Yazım: Tüm metinlerde Türk Dil Kurumu (TDK) yazım ve noktalama standartları esas alınır. Hatalı büyük/küçük harf kullanımları ve anlatım bozuklukları tamamen düzeltilir.
-** Standart Metin Çıktısı: Hazırlanan metinler ek bir düzenleme gerektirmeden, sosyal medya veya haber platformlarında doğrudan kopyalanıp paylaşılabilecek nihai formda teslim edilir.
+** Standart Metin Çıktısı: Hazırlanan metinler ek bir düzenleme gerektirmeden, sosyal medya veya haber platformlarında doğrudan paylaşılabilecek nihai formda teslim edilir.
 
 1.2. İngilizce Okunuşa Göre Ek Getirme (Kritik Kural)
 
@@ -39,6 +39,7 @@ Metin içerisindeki sayısal veriler ve zaman ifadeleri tek bir tipografik stand
 * - Saat Formatı: `saat 18.00` veya `15.00'te` (Nokta kullanılır, iki nokta `:` kullanılmaz)
 * - Sayısal Veriler ve Para Birimleri: `2.901.875 dolar`, `1.250.000 TL`, `%52,8`
 * - Skorlar: `2-1`, `13-10` [`2-1 olan skorlar genel olarak maç sonucu olarak kullanılır. 13-10 ise harita sonucudur.`]
+* - Metinler yazılırken noktalı virgül (`;`) kullanılmamalıdır. Örnek yanlış kullanım: "Metinler, kuralları çerçevesinde hazırlanır; ardından..." Doğru kullanım: "Metinler, kuralları çerçevesinde hazırlanır, ardından..."
 
 ---
 
@@ -51,7 +52,7 @@ Korunacak Terimler: Major, Stage, Play-off, Upper Bracket, Lower Bracket, IGL, A
 2.2. Resmi Kullanımlara Sadakat
 -Harita isimleri (Anubis, Mirage, Inferno), oyuncu takma adları, takım ve organizasyon isimlerinin resmi mecralardaki (HLTV, Liquipedia vb.) yazımlarına eksiksiz sadık kalınır.
 
----
+--- 
 
 BÖLÜM 3: METİN YAPISI, AKICILIK VE AI HANTALLIĞININ TEMİZLENMESİ
 
@@ -89,7 +90,7 @@ Haber içeriklerinde en kritik bilgi her zaman **ilk cümlede** verilir.
 Başlıklar yalnızca konuyu tekrar etmemeli; okuyucuya doğrudan haberin içeriğini sunmalıdır. Clickbait (yanıltıcı) başlıklardan kaçınılır.
 
 ❌ Hatalı: MAJ3R'den Açıklama
-✅ Doğru: MAJ3R, Aurora Maçlarını Neden Yayınladığını Açıkladı
+✅ Doğru: MAJ3R, Aurora Maçlarını Neden Yayınladığını Açıkladı?
 
 4.3. Tarafsızlık ve Bilgi Niteliği (Kesinlik - İddia Ayrımı)
 
@@ -131,6 +132,7 @@ Axis Esports Media içeriklerinde uygulanan temel yayın formülü:
 
 Doğru Bilgi / Kısa Bağlam / Doğal Türkçe / Profesyonel Ton / Sıfır Yapay Zeka Hantallığı
 
-## 2. Üslup ve Doğallık (Humanizer Entegrasyonu)
-- Metinleri oluştururken ve düzenlerken ek olarak verilecek `humanizer` skill'inde yer alan doğallaştırma, AI kalıplarını kırma ve akıcı insan dili kullanma ilkelerini BİREBİR uygula. 
-axis'in metin kurallarını `humanizer` skill'i ile destekle. Humanizer skill'inin ismi: [metin-yazma-kurallari.md] + [SKILL.md] : bu ikisi kullanılacak.
+***Not: Yapay zeka, metin düzenleme sürecinde veya sonrasında kullanıcıya açıklama yapamaz. Model yalnızca düzenlenmiş metni teslim etmeli; "Düzenlenmiş metin:" gibi ifadeler kullanmamalıdır.
+
+## 2. Üslup ve Doğallık
+Metinler, `metin-yazma-kurallari.md` kuralları çerçevesinde hazırlanır, ardından `SKILL.md` dosyasıyla desteklenir. Amaç, yazılan ve yazılacak metinlerin `metin-yazma-kurallari.md` kurallarına uygun şekilde oluşturulmasıdır. `SKILL.md` dosyası, diğer adıyla `humanizer skill'i` yazılacak metinlerin daha doğal ve daha insani bir hâle gelmesini sağlar.
