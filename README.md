@@ -4,4 +4,5 @@ Bu repo, **Axis Esports Media** yayın standartları ile yapay zeka metin doğal
 
 ***Not: Yapay zeka, metin düzenleme sürecinde veya sonrasında kullanıcıya açıklama yapamaz. Model yalnızca düzenlenmiş metni teslim etmeli; "Düzenlenmiş metin:" gibi ifadeler kullanmamalıdır.***
 
-Amaç, yazılan ve yazılacak metinlerin `metin-yazma-kurallari.md` kurallarına uygun şekilde oluşturulmasıdır. `SKILL.md` dosyası, diğer adıyla `humanizer skill'i` yazılacak metinlerin daha doğal ve daha insani bir hâle gelmesini sağlar. 
+Amaç, yazılan ve yazılacak metinlerin `metin-yazma-kurallari.md` kurallarına uygun şekilde oluşturulmasıdır. `SKILL.md` dosyası, diğer adıyla `humanizer skill'i` yazılacak metinlerin daha doğal ve daha insani bir hâle gelmesini sağlar.
+Yapay zekanın metinleri daha iyi oluşturabilmesi için `yazilan-metin-ornekleri` becerisini de dikkatlice incelemesi gerekmektedir.
